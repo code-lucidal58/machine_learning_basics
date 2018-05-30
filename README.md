@@ -12,7 +12,7 @@ Others: Reinforcement Learning, recommender systems
 
 #### Supervised Learning
 The machine learns from a set of data where correct output is known. When the predicted result is from continuous output i.e. input is given to a continuous function, it is called regression, and when the predicted result is from a set of discrete output, it is called classification. <br>
-A training set is fed to a learning algorithm which returns a function which is called hypothesis, denoted by _h_. During prediction, input (x) is fed to to h and an output (extimated value of y) is obtained.
+A training set is fed to a learning algorithm which returns a function which is called hypothesis, denoted by _h_. During prediction, input (x)(also called input feature) is fed to to h and an output (extimated value of y)(also called target) is obtained. The set (x,y) is denoted by m, called the training set.
 
 **Linear Regression**<br>
 The data set output is represented as a linear equation represented by:<br>
